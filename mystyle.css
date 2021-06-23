@@ -1,0 +1,271 @@
+
+
+@media(max-width:998px){
+
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+body{
+    margin:0;
+}
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background-color: #f4f2fa;
+    min-width:8rem;
+    box-shadow:0rem 0.8rem  1rem 0rem rgba(0,0,0,0.2);
+    padding:0.4rem 0.4rem;
+    
+    margin-left: -1.5rem;
+
+}
+.dropdown:hover .dropdown-content{
+
+    display: block;
+   text-decoration-color: wheat;
+  
+}
+.dropdown:hover .dropdown-content a:hover{
+    color:blueviolet
+}
+
+.checked{
+color:orange;
+}
+
+.mySlides{
+    display: none;
+}
+.forwat1{
+margin-left:5rem;
+width:auto;
+height: auto;
+}
+.forwat1des{
+ margin-left: 8rem;
+ font-weight: bold;
+ font-size: 2rem;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ line-height: 3rem;
+ word-spacing: 0.3rem;
+ resize: both;
+  overflow: auto;
+
+}
+.forlist{
+    margin-left: 6rem;
+    margin-top: -2rem;
+    list-style-type: none;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+.forcartbutton{
+    margin-left: 7rem;
+    
+    background-color: orange;
+    width:12rem;
+    height:3rem;
+    color:white;
+    border-color: white;
+    font-size: 1.4rem;
+}
+.forcartbutton.fa{
+    margin-left: 10%;
+}
+.forbuybutton{
+    background-color:tomato;
+    width:12rem;
+    height:3rem;
+    color:white;
+    border-color: white;
+    font-size: 1.4rem;
+}
+/* code for search box 
+.dropbtn1 {
+    
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
+  
+  #myInput1 {
+    box-sizing: border-box;
+    
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border: 1px solid #ddd;
+  }
+  
+  #myInput1:focus {outline: 3px solid #ddd;}
+  
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 24rem;
+    overflow: auto;
+  
+    z-index: 1;
+  }
+  
+  .dropdown1-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown1 a:hover {background-color: #ddd;}
+  
+  .show1 {display: block;} 
+ 
+ */
+
+ .fs:hover {
+    transform: scale(1.1);
+    box-shadow:2px 2px 2px 2px rgb(236, 230, 230);
+ }
+
+.fos{
+
+    box-shadow:2px 2px 2px 2px rgb(236, 230, 230);
+    padding-left: 7rem;
+}
+
+.fop{
+
+    box-shadow:2px 2px 2px 2px rgb(236, 230, 230);
+    padding-left: 15rem;
+    
+}
+
+.s11{
+    float:left;
+    margin-left:15%;
+    box-shadow: 3px 3px 3px 3px rgb(236, 230, 230);
+    line-height: 1.7rem;
+   
+}
+.weff:hover{
+   
+    transform:scaleY(1.05);
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.s11 a{
+    text-decoration: none;
+    color:black
+}
+.s12{
+    float:left;
+    margin-left:15%;
+   
+    line-height: 1.7rem;
+   
+}
+.s12:hover{
+    
+    transform: scaleX(1.1);
+    transform: scaleY(1.01);
+    text-decoration: none;
+}
+.forlap{
+    margin-left: 2rem;
+}
+.lapimg{
+    float:left;
+}
+.forheading {
+    text-decoration: none;
+    color: black;
+    width:100%;
+   
+  
+}
+.forheading:hover{
+    color:blue
+}
+ a{
+    text-decoration: none;
+    color:black
+}
+
+#mp1{
+    line-height: 2rem;
+    margin-left: 4rem;
+}
+.mobimg{
+    float:left;
+    margin-left: 9rem;
+}
+.forlapdesc{
+    line-height: 1.5rem;
+}
+.r11{
+    float:left;
+    margin-left:10%;
+  
+    line-height: 1.7rem;
+   
+}
+.r11:hover{
+    
+    transform: scaleX(1.6);
+    transform: scaleY(1.05);
+    text-decoration: none;
+}
+
+.name{
+    margin-left: 33%;
+    margin-top: 5rem;
+    
+}
+.name input{
+    width:25%;
+    height:2rem;
+}
+.email input{
+    width:50%;
+}
+.button{
+    margin-left: 2%;
+    width:50%;
+    background-color: rgb(30, 95, 148);
+    height: 3rem;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color:white;
+    border-radius: 30rem;
+}
+.button:hover{
+   transform: scale(1.1);
+    color:black;
+}
+.msgs{
+   overflow-x: hidden;
+    overflow-y: scroll;
+}
