@@ -11,6 +11,14 @@
     html{
         font-size: 45%;
     }
+    .snacks .heading{
+        margin-left: 30%;
+        text-align: center;
+    }
+    .snacks .menu .items{
+        margin-left: 30%;
+        width:100%;
+    }
 }
 body{
     margin:0;
@@ -31,6 +39,7 @@ body{
     margin-left: -1.5rem;
 
 }
+
 .dropdown:hover .dropdown-content{
 
     display: block;
@@ -92,6 +101,7 @@ height: auto;
     border-color: white;
     font-size: 1.4rem;
 }
+
 /* code for search box 
 .dropbtn1 {
     
@@ -161,6 +171,62 @@ height: auto;
     padding-left: 15rem;
     
 }
+.menu{
+    padding:0 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+.heading{
+  margin: 0;
+  padding: 0;
+    color:green;
+    text-align:left;
+    font-size: 25px;
+    grid-column: 1/-1;
+    margin-bottom: 30px;
+}
+.items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr ;
+   
+    border-radius: 15px;
+    box-shadow:0rem 0.8rem  1rem 0rem rgba(0,0,0,0.2);
+    
+}
+.items img{
+    position: relative;
+    width:100%;
+   overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+h1{
+    grid-column: 1/-1;
+    text-align: center;
+
+}
+.details{
+ 
+    display: grid;
+  grid-template-rows: auto 1fr 50px;
+  grid-row-gap:10px;
+
+    
+}
+.details > p{
+padding:15px 0 15px 0;
+color:black;
+font-size: 1rem;
+font-weight: 400;
+align-items: stretch;
+text-align: center;
+
+
+}
+
 
 .s11{
     float:left;
